@@ -2,12 +2,14 @@ class Band:
     pass
 
 
+
 class Musician:
     pass
 
 
 class Guitarist:
-    pass
+   def __init__(self, name = "unknown"):
+       self.name = name
 
 
 class Bassist:
